@@ -8,6 +8,7 @@ const handler = (req, res) => {
     }
 
     console.log(userEmail);
+    res.status(201).json({ message: 'Signed Up!' });
   }
 };
 
